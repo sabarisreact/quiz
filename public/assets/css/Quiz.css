@@ -139,6 +139,9 @@
     position: absolute;
     bottom: 0px;
 }
+.YouTubePopUp-Close:before{
+    content: "x" !important;
+}
 
 @media screen and (max-width: 64.06125em) {
     .header-menu li>a {
@@ -5212,9 +5215,6 @@ label span {
     }
     .content_ul_listings h2{
         font-size: 15px !important;
-    }
-    .row_flex_start label{
-        font-size: 12px !important;
     }
     .z-time, .z-money{
         top: 25px !important;
